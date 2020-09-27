@@ -1,0 +1,111 @@
+/* DEVICES WHICH WIDTH 1400px TO 1477px WILL BE FINE */
+
+/* DEVICES WHICH WIDTH 1338px TO 1400px */
+@media only screen and (max-width:1400px){
+    .container { width: 80%; }
+    .inner { width: 80%; }
+    .page-nav {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .search { margin-right: 3%; }
+    .page-heading-inner {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* DEVICES WHICH WIDTH 1224px TO 1337px */
+@media only screen and (max-width:1337px){
+    .container { width: 80%; }
+    .inner { width: 85%; }
+    .page-nav {
+        width: 86.5%;
+        margin-left: 6.8%;
+    }
+    .search { margin-right: 5%; }
+    .page-heading-inner {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .box { width: 155%; }
+}
+
+/* DEVICES WHICH WIDTH 1196px TO 1223px */
+@media only screen and (max-width:1223px){
+    .page-heading-inner {
+        width: 86.5%;
+        margin-left: 7%;
+    }
+}
+
+/* DEVICES WHICH WIDTH 768px TO 1194px */
+@media only screen and (max-width:1194px){
+    .dropbtn { font-size: 14px; }
+    .down-right-nav  {
+        padding: 10% 17% 5% 0%;
+    }
+    .down-right-nav li { margin-left: 20px; }
+    .search {
+        display: block;
+        left: 43%;
+        margin-top: 8%;
+    }
+    .down-right-nav li:first-child { margin-left: 0px; }
+    .side-bar { display: none; }
+    .page-nav img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .hero-img {
+        width: 100%;
+        height: 55%;
+    }
+    .post { width: 133%; }
+    .btns { left: 85%; }
+    .read-more-posts, .footer { display: block; }
+    footer { display: block; }
+}
+
+/*border: 2px solid red;*/
+
+/* DEVICES WHICH WIDTH 479px TO 767px */
+@media only screen and (max-width:767px){
+    nav,
+    .search, .btns { display: none; }
+    .down-right-nav {
+        display: block;
+        margin-top: 6%;
+        width: 40%;
+        margin-right: 22%;
+        padding-left: 4%;
+    }
+    .down-right-nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    .hero-img {
+        width: 100%;
+        height: 35%;
+    }
+    footer { display: block; }
+}
+
+/* DEVICES WHICH WIDTH 0px TO 480px */
+@media only screen and (max-width:480px){
+    .hero-img, {
+        width: 100%;
+        height: 27%;
+    }
+    .page-contents { display: none; }
+    .btns { display: none; }
+    footer { display: block; }
+}
+
+
+
